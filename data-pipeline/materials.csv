@@ -1,0 +1,11 @@
+material_id,name,albedo,surface_temp_reduction_c,cost_per_sqm_inr,durability_years,category
+M01,Conventional Asphalt,0.08,0.0,450,8,baseline
+M02,Conventional Dark Roof,0.10,0.0,380,10,baseline
+M03,Cool Pavement (High-Albedo Coating),0.45,8.5,720,7,pavement
+M04,Reflective Pavement (Engineered),0.55,11.2,950,6,pavement
+M05,Cool Roof (White Membrane),0.72,9.8,540,12,roof
+M06,Cool Roof (Reflective Paint),0.65,7.4,310,5,roof
+M07,Green Roof (Extensive),0.30,12.6,1850,20,vegetation
+M08,Green Roof (Intensive),0.28,14.1,3200,25,vegetation
+M09,Urban Tree Canopy (per zone avg.),0.20,6.3,180,30,vegetation
+M10,Permeable Green Pavers,0.35,9.0,890,15,pavement

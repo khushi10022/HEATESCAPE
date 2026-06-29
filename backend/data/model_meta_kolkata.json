@@ -1,0 +1,17 @@
+{
+  "city_id": "kolkata",
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "r_squared": 1.0,
+  "rf_r_squared": 0.991,
+  "coefficients": {
+    "ndvi": 20.806,
+    "ndbi": 0.341,
+    "albedo": -1.398,
+    "air_temp_celsius": 0.014,
+    "relative_humidity": -1.049,
+    "intercept": 111.958
+  },
+  "zone_count": 15,
+  "model_description": "Dual-model AI/ML architecture. Multiple linear regression for driver coefficient attribution (LST ~ NDVI + NDBI + Albedo + AirTemp + Humidity), and Random Forest Regressor for non-linear simulation of urban cooling interventions."
+}

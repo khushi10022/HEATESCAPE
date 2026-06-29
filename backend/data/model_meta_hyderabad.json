@@ -1,0 +1,17 @@
+{
+  "city_id": "hyderabad",
+  "city": "Hyderabad",
+  "state": "Telangana",
+  "r_squared": 1.0,
+  "rf_r_squared": 0.994,
+  "coefficients": {
+    "ndvi": 26.058,
+    "ndbi": 0.457,
+    "albedo": 1.388,
+    "air_temp_celsius": 0.321,
+    "relative_humidity": -1.252,
+    "intercept": 64.551
+  },
+  "zone_count": 18,
+  "model_description": "Dual-model AI/ML architecture. Multiple linear regression for driver coefficient attribution (LST ~ NDVI + NDBI + Albedo + AirTemp + Humidity), and Random Forest Regressor for non-linear simulation of urban cooling interventions."
+}

@@ -1,0 +1,17 @@
+{
+  "city_id": "patna",
+  "city": "Patna",
+  "state": "Bihar",
+  "r_squared": 1.0,
+  "rf_r_squared": 0.979,
+  "coefficients": {
+    "ndvi": 18.139,
+    "ndbi": 0.496,
+    "albedo": 1.446,
+    "air_temp_celsius": 0.234,
+    "relative_humidity": -0.879,
+    "intercept": 75.173
+  },
+  "zone_count": 15,
+  "model_description": "Dual-model AI/ML architecture. Multiple linear regression for driver coefficient attribution (LST ~ NDVI + NDBI + Albedo + AirTemp + Humidity), and Random Forest Regressor for non-linear simulation of urban cooling interventions."
+}

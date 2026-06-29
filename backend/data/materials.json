@@ -1,0 +1,92 @@
+[
+  {
+    "material_id": "M01",
+    "name": "Conventional Asphalt",
+    "albedo": 0.08,
+    "surface_temp_reduction_c": 0.0,
+    "cost_per_sqm_inr": 450,
+    "durability_years": 8,
+    "category": "baseline"
+  },
+  {
+    "material_id": "M02",
+    "name": "Conventional Dark Roof",
+    "albedo": 0.1,
+    "surface_temp_reduction_c": 0.0,
+    "cost_per_sqm_inr": 380,
+    "durability_years": 10,
+    "category": "baseline"
+  },
+  {
+    "material_id": "M03",
+    "name": "Cool Pavement (High-Albedo Coating)",
+    "albedo": 0.45,
+    "surface_temp_reduction_c": 8.5,
+    "cost_per_sqm_inr": 720,
+    "durability_years": 7,
+    "category": "pavement"
+  },
+  {
+    "material_id": "M04",
+    "name": "Reflective Pavement (Engineered)",
+    "albedo": 0.55,
+    "surface_temp_reduction_c": 11.2,
+    "cost_per_sqm_inr": 950,
+    "durability_years": 6,
+    "category": "pavement"
+  },
+  {
+    "material_id": "M05",
+    "name": "Cool Roof (White Membrane)",
+    "albedo": 0.72,
+    "surface_temp_reduction_c": 9.8,
+    "cost_per_sqm_inr": 540,
+    "durability_years": 12,
+    "category": "roof"
+  },
+  {
+    "material_id": "M06",
+    "name": "Cool Roof (Reflective Paint)",
+    "albedo": 0.65,
+    "surface_temp_reduction_c": 7.4,
+    "cost_per_sqm_inr": 310,
+    "durability_years": 5,
+    "category": "roof"
+  },
+  {
+    "material_id": "M07",
+    "name": "Green Roof (Extensive)",
+    "albedo": 0.3,
+    "surface_temp_reduction_c": 12.6,
+    "cost_per_sqm_inr": 1850,
+    "durability_years": 20,
+    "category": "vegetation"
+  },
+  {
+    "material_id": "M08",
+    "name": "Green Roof (Intensive)",
+    "albedo": 0.28,
+    "surface_temp_reduction_c": 14.1,
+    "cost_per_sqm_inr": 3200,
+    "durability_years": 25,
+    "category": "vegetation"
+  },
+  {
+    "material_id": "M09",
+    "name": "Urban Tree Canopy (per zone avg.)",
+    "albedo": 0.2,
+    "surface_temp_reduction_c": 6.3,
+    "cost_per_sqm_inr": 180,
+    "durability_years": 30,
+    "category": "vegetation"
+  },
+  {
+    "material_id": "M10",
+    "name": "Permeable Green Pavers",
+    "albedo": 0.35,
+    "surface_temp_reduction_c": 9.0,
+    "cost_per_sqm_inr": 890,
+    "durability_years": 15,
+    "category": "pavement"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "city_id": "mumbai",
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "r_squared": 1.0,
+  "rf_r_squared": 0.961,
+  "coefficients": {
+    "ndvi": 20.73,
+    "ndbi": -0.725,
+    "albedo": -2.81,
+    "air_temp_celsius": 0.444,
+    "relative_humidity": -0.957,
+    "intercept": 94.075
+  },
+  "zone_count": 20,
+  "model_description": "Dual-model AI/ML architecture. Multiple linear regression for driver coefficient attribution (LST ~ NDVI + NDBI + Albedo + AirTemp + Humidity), and Random Forest Regressor for non-linear simulation of urban cooling interventions."
+}

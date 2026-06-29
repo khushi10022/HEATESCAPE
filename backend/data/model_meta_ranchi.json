@@ -1,0 +1,17 @@
+{
+  "city_id": "ranchi",
+  "city": "Ranchi",
+  "state": "Jharkhand",
+  "r_squared": 1.0,
+  "rf_r_squared": 0.979,
+  "coefficients": {
+    "ndvi": 20.548,
+    "ndbi": 0.923,
+    "albedo": 3.025,
+    "air_temp_celsius": 0.587,
+    "relative_humidity": -0.937,
+    "intercept": 53.982
+  },
+  "zone_count": 12,
+  "model_description": "Dual-model AI/ML architecture. Multiple linear regression for driver coefficient attribution (LST ~ NDVI + NDBI + Albedo + AirTemp + Humidity), and Random Forest Regressor for non-linear simulation of urban cooling interventions."
+}

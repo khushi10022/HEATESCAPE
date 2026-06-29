@@ -1,0 +1,992 @@
+{
+  "KO01": [
+    {
+      "material_id": "M07",
+      "material_name": "Green Roof (Extensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 3.26,
+      "cost_per_sqm_inr": 1850,
+      "durability_years": 20
+    },
+    {
+      "material_id": "M08",
+      "material_name": "Green Roof (Intensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 3.26,
+      "cost_per_sqm_inr": 3200,
+      "durability_years": 25
+    },
+    {
+      "material_id": "M09",
+      "material_name": "Urban Tree Canopy (per zone avg.)",
+      "category": "vegetation",
+      "predicted_cooling_c": 2.71,
+      "cost_per_sqm_inr": 180,
+      "durability_years": 30
+    },
+    {
+      "material_id": "M03",
+      "material_name": "Cool Pavement (High-Albedo Coating)",
+      "category": "pavement",
+      "predicted_cooling_c": 2.47,
+      "cost_per_sqm_inr": 720,
+      "durability_years": 7
+    },
+    {
+      "material_id": "M04",
+      "material_name": "Reflective Pavement (Engineered)",
+      "category": "pavement",
+      "predicted_cooling_c": 2.47,
+      "cost_per_sqm_inr": 950,
+      "durability_years": 6
+    },
+    {
+      "material_id": "M05",
+      "material_name": "Cool Roof (White Membrane)",
+      "category": "roof",
+      "predicted_cooling_c": 2.47,
+      "cost_per_sqm_inr": 540,
+      "durability_years": 12
+    },
+    {
+      "material_id": "M06",
+      "material_name": "Cool Roof (Reflective Paint)",
+      "category": "roof",
+      "predicted_cooling_c": 2.47,
+      "cost_per_sqm_inr": 310,
+      "durability_years": 5
+    },
+    {
+      "material_id": "M10",
+      "material_name": "Permeable Green Pavers",
+      "category": "pavement",
+      "predicted_cooling_c": 2.47,
+      "cost_per_sqm_inr": 890,
+      "durability_years": 15
+    }
+  ],
+  "KO02": [
+    {
+      "material_id": "M07",
+      "material_name": "Green Roof (Extensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 2.33,
+      "cost_per_sqm_inr": 1850,
+      "durability_years": 20
+    },
+    {
+      "material_id": "M08",
+      "material_name": "Green Roof (Intensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 2.33,
+      "cost_per_sqm_inr": 3200,
+      "durability_years": 25
+    },
+    {
+      "material_id": "M03",
+      "material_name": "Cool Pavement (High-Albedo Coating)",
+      "category": "pavement",
+      "predicted_cooling_c": 1.65,
+      "cost_per_sqm_inr": 720,
+      "durability_years": 7
+    },
+    {
+      "material_id": "M04",
+      "material_name": "Reflective Pavement (Engineered)",
+      "category": "pavement",
+      "predicted_cooling_c": 1.65,
+      "cost_per_sqm_inr": 950,
+      "durability_years": 6
+    },
+    {
+      "material_id": "M05",
+      "material_name": "Cool Roof (White Membrane)",
+      "category": "roof",
+      "predicted_cooling_c": 1.65,
+      "cost_per_sqm_inr": 540,
+      "durability_years": 12
+    },
+    {
+      "material_id": "M06",
+      "material_name": "Cool Roof (Reflective Paint)",
+      "category": "roof",
+      "predicted_cooling_c": 1.65,
+      "cost_per_sqm_inr": 310,
+      "durability_years": 5
+    },
+    {
+      "material_id": "M10",
+      "material_name": "Permeable Green Pavers",
+      "category": "pavement",
+      "predicted_cooling_c": 1.65,
+      "cost_per_sqm_inr": 890,
+      "durability_years": 15
+    },
+    {
+      "material_id": "M09",
+      "material_name": "Urban Tree Canopy (per zone avg.)",
+      "category": "vegetation",
+      "predicted_cooling_c": 1.53,
+      "cost_per_sqm_inr": 180,
+      "durability_years": 30
+    }
+  ],
+  "KO03": [
+    {
+      "material_id": "M07",
+      "material_name": "Green Roof (Extensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 1.92,
+      "cost_per_sqm_inr": 1850,
+      "durability_years": 20
+    },
+    {
+      "material_id": "M08",
+      "material_name": "Green Roof (Intensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 1.92,
+      "cost_per_sqm_inr": 3200,
+      "durability_years": 25
+    },
+    {
+      "material_id": "M03",
+      "material_name": "Cool Pavement (High-Albedo Coating)",
+      "category": "pavement",
+      "predicted_cooling_c": 1.19,
+      "cost_per_sqm_inr": 720,
+      "durability_years": 7
+    },
+    {
+      "material_id": "M04",
+      "material_name": "Reflective Pavement (Engineered)",
+      "category": "pavement",
+      "predicted_cooling_c": 1.19,
+      "cost_per_sqm_inr": 950,
+      "durability_years": 6
+    },
+    {
+      "material_id": "M05",
+      "material_name": "Cool Roof (White Membrane)",
+      "category": "roof",
+      "predicted_cooling_c": 1.19,
+      "cost_per_sqm_inr": 540,
+      "durability_years": 12
+    },
+    {
+      "material_id": "M06",
+      "material_name": "Cool Roof (Reflective Paint)",
+      "category": "roof",
+      "predicted_cooling_c": 1.19,
+      "cost_per_sqm_inr": 310,
+      "durability_years": 5
+    },
+    {
+      "material_id": "M10",
+      "material_name": "Permeable Green Pavers",
+      "category": "pavement",
+      "predicted_cooling_c": 1.19,
+      "cost_per_sqm_inr": 890,
+      "durability_years": 15
+    },
+    {
+      "material_id": "M09",
+      "material_name": "Urban Tree Canopy (per zone avg.)",
+      "category": "vegetation",
+      "predicted_cooling_c": 0.77,
+      "cost_per_sqm_inr": 180,
+      "durability_years": 30
+    }
+  ],
+  "KO04": [
+    {
+      "material_id": "M07",
+      "material_name": "Green Roof (Extensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 3.19,
+      "cost_per_sqm_inr": 1850,
+      "durability_years": 20
+    },
+    {
+      "material_id": "M08",
+      "material_name": "Green Roof (Intensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 3.19,
+      "cost_per_sqm_inr": 3200,
+      "durability_years": 25
+    },
+    {
+      "material_id": "M09",
+      "material_name": "Urban Tree Canopy (per zone avg.)",
+      "category": "vegetation",
+      "predicted_cooling_c": 2.86,
+      "cost_per_sqm_inr": 180,
+      "durability_years": 30
+    },
+    {
+      "material_id": "M03",
+      "material_name": "Cool Pavement (High-Albedo Coating)",
+      "category": "pavement",
+      "predicted_cooling_c": 2.22,
+      "cost_per_sqm_inr": 720,
+      "durability_years": 7
+    },
+    {
+      "material_id": "M04",
+      "material_name": "Reflective Pavement (Engineered)",
+      "category": "pavement",
+      "predicted_cooling_c": 2.22,
+      "cost_per_sqm_inr": 950,
+      "durability_years": 6
+    },
+    {
+      "material_id": "M05",
+      "material_name": "Cool Roof (White Membrane)",
+      "category": "roof",
+      "predicted_cooling_c": 2.22,
+      "cost_per_sqm_inr": 540,
+      "durability_years": 12
+    },
+    {
+      "material_id": "M06",
+      "material_name": "Cool Roof (Reflective Paint)",
+      "category": "roof",
+      "predicted_cooling_c": 2.22,
+      "cost_per_sqm_inr": 310,
+      "durability_years": 5
+    },
+    {
+      "material_id": "M10",
+      "material_name": "Permeable Green Pavers",
+      "category": "pavement",
+      "predicted_cooling_c": 2.22,
+      "cost_per_sqm_inr": 890,
+      "durability_years": 15
+    }
+  ],
+  "KO05": [
+    {
+      "material_id": "M07",
+      "material_name": "Green Roof (Extensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 2.04,
+      "cost_per_sqm_inr": 1850,
+      "durability_years": 20
+    },
+    {
+      "material_id": "M08",
+      "material_name": "Green Roof (Intensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 2.04,
+      "cost_per_sqm_inr": 3200,
+      "durability_years": 25
+    },
+    {
+      "material_id": "M03",
+      "material_name": "Cool Pavement (High-Albedo Coating)",
+      "category": "pavement",
+      "predicted_cooling_c": 1.44,
+      "cost_per_sqm_inr": 720,
+      "durability_years": 7
+    },
+    {
+      "material_id": "M04",
+      "material_name": "Reflective Pavement (Engineered)",
+      "category": "pavement",
+      "predicted_cooling_c": 1.44,
+      "cost_per_sqm_inr": 950,
+      "durability_years": 6
+    },
+    {
+      "material_id": "M05",
+      "material_name": "Cool Roof (White Membrane)",
+      "category": "roof",
+      "predicted_cooling_c": 1.44,
+      "cost_per_sqm_inr": 540,
+      "durability_years": 12
+    },
+    {
+      "material_id": "M06",
+      "material_name": "Cool Roof (Reflective Paint)",
+      "category": "roof",
+      "predicted_cooling_c": 1.44,
+      "cost_per_sqm_inr": 310,
+      "durability_years": 5
+    },
+    {
+      "material_id": "M10",
+      "material_name": "Permeable Green Pavers",
+      "category": "pavement",
+      "predicted_cooling_c": 1.44,
+      "cost_per_sqm_inr": 890,
+      "durability_years": 15
+    },
+    {
+      "material_id": "M09",
+      "material_name": "Urban Tree Canopy (per zone avg.)",
+      "category": "vegetation",
+      "predicted_cooling_c": 1.01,
+      "cost_per_sqm_inr": 180,
+      "durability_years": 30
+    }
+  ],
+  "KO06": [
+    {
+      "material_id": "M07",
+      "material_name": "Green Roof (Extensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 2.92,
+      "cost_per_sqm_inr": 1850,
+      "durability_years": 20
+    },
+    {
+      "material_id": "M08",
+      "material_name": "Green Roof (Intensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 2.92,
+      "cost_per_sqm_inr": 3200,
+      "durability_years": 25
+    },
+    {
+      "material_id": "M09",
+      "material_name": "Urban Tree Canopy (per zone avg.)",
+      "category": "vegetation",
+      "predicted_cooling_c": 2.11,
+      "cost_per_sqm_inr": 180,
+      "durability_years": 30
+    },
+    {
+      "material_id": "M03",
+      "material_name": "Cool Pavement (High-Albedo Coating)",
+      "category": "pavement",
+      "predicted_cooling_c": 1.83,
+      "cost_per_sqm_inr": 720,
+      "durability_years": 7
+    },
+    {
+      "material_id": "M04",
+      "material_name": "Reflective Pavement (Engineered)",
+      "category": "pavement",
+      "predicted_cooling_c": 1.83,
+      "cost_per_sqm_inr": 950,
+      "durability_years": 6
+    },
+    {
+      "material_id": "M05",
+      "material_name": "Cool Roof (White Membrane)",
+      "category": "roof",
+      "predicted_cooling_c": 1.83,
+      "cost_per_sqm_inr": 540,
+      "durability_years": 12
+    },
+    {
+      "material_id": "M06",
+      "material_name": "Cool Roof (Reflective Paint)",
+      "category": "roof",
+      "predicted_cooling_c": 1.83,
+      "cost_per_sqm_inr": 310,
+      "durability_years": 5
+    },
+    {
+      "material_id": "M10",
+      "material_name": "Permeable Green Pavers",
+      "category": "pavement",
+      "predicted_cooling_c": 1.83,
+      "cost_per_sqm_inr": 890,
+      "durability_years": 15
+    }
+  ],
+  "KO07": [
+    {
+      "material_id": "M04",
+      "material_name": "Reflective Pavement (Engineered)",
+      "category": "pavement",
+      "predicted_cooling_c": 7.84,
+      "cost_per_sqm_inr": 950,
+      "durability_years": 6
+    },
+    {
+      "material_id": "M05",
+      "material_name": "Cool Roof (White Membrane)",
+      "category": "roof",
+      "predicted_cooling_c": 6.86,
+      "cost_per_sqm_inr": 540,
+      "durability_years": 12
+    },
+    {
+      "material_id": "M10",
+      "material_name": "Permeable Green Pavers",
+      "category": "pavement",
+      "predicted_cooling_c": 6.3,
+      "cost_per_sqm_inr": 890,
+      "durability_years": 15
+    },
+    {
+      "material_id": "M03",
+      "material_name": "Cool Pavement (High-Albedo Coating)",
+      "category": "pavement",
+      "predicted_cooling_c": 5.95,
+      "cost_per_sqm_inr": 720,
+      "durability_years": 7
+    },
+    {
+      "material_id": "M06",
+      "material_name": "Cool Roof (Reflective Paint)",
+      "category": "roof",
+      "predicted_cooling_c": 5.18,
+      "cost_per_sqm_inr": 310,
+      "durability_years": 5
+    },
+    {
+      "material_id": "M09",
+      "material_name": "Urban Tree Canopy (per zone avg.)",
+      "category": "vegetation",
+      "predicted_cooling_c": 4.41,
+      "cost_per_sqm_inr": 180,
+      "durability_years": 30
+    },
+    {
+      "material_id": "M07",
+      "material_name": "Green Roof (Extensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 0.88,
+      "cost_per_sqm_inr": 1850,
+      "durability_years": 20
+    },
+    {
+      "material_id": "M08",
+      "material_name": "Green Roof (Intensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 0.88,
+      "cost_per_sqm_inr": 3200,
+      "durability_years": 25
+    }
+  ],
+  "KO08": [
+    {
+      "material_id": "M09",
+      "material_name": "Urban Tree Canopy (per zone avg.)",
+      "category": "vegetation",
+      "predicted_cooling_c": 1.59,
+      "cost_per_sqm_inr": 180,
+      "durability_years": 30
+    },
+    {
+      "material_id": "M03",
+      "material_name": "Cool Pavement (High-Albedo Coating)",
+      "category": "pavement",
+      "predicted_cooling_c": 1.08,
+      "cost_per_sqm_inr": 720,
+      "durability_years": 7
+    },
+    {
+      "material_id": "M04",
+      "material_name": "Reflective Pavement (Engineered)",
+      "category": "pavement",
+      "predicted_cooling_c": 1.08,
+      "cost_per_sqm_inr": 950,
+      "durability_years": 6
+    },
+    {
+      "material_id": "M05",
+      "material_name": "Cool Roof (White Membrane)",
+      "category": "roof",
+      "predicted_cooling_c": 1.08,
+      "cost_per_sqm_inr": 540,
+      "durability_years": 12
+    },
+    {
+      "material_id": "M06",
+      "material_name": "Cool Roof (Reflective Paint)",
+      "category": "roof",
+      "predicted_cooling_c": 1.08,
+      "cost_per_sqm_inr": 310,
+      "durability_years": 5
+    },
+    {
+      "material_id": "M07",
+      "material_name": "Green Roof (Extensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 1.08,
+      "cost_per_sqm_inr": 1850,
+      "durability_years": 20
+    },
+    {
+      "material_id": "M08",
+      "material_name": "Green Roof (Intensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 1.08,
+      "cost_per_sqm_inr": 3200,
+      "durability_years": 25
+    },
+    {
+      "material_id": "M10",
+      "material_name": "Permeable Green Pavers",
+      "category": "pavement",
+      "predicted_cooling_c": 1.08,
+      "cost_per_sqm_inr": 890,
+      "durability_years": 15
+    }
+  ],
+  "KO09": [
+    {
+      "material_id": "M07",
+      "material_name": "Green Roof (Extensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 3.18,
+      "cost_per_sqm_inr": 1850,
+      "durability_years": 20
+    },
+    {
+      "material_id": "M08",
+      "material_name": "Green Roof (Intensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 3.18,
+      "cost_per_sqm_inr": 3200,
+      "durability_years": 25
+    },
+    {
+      "material_id": "M09",
+      "material_name": "Urban Tree Canopy (per zone avg.)",
+      "category": "vegetation",
+      "predicted_cooling_c": 2.28,
+      "cost_per_sqm_inr": 180,
+      "durability_years": 30
+    },
+    {
+      "material_id": "M03",
+      "material_name": "Cool Pavement (High-Albedo Coating)",
+      "category": "pavement",
+      "predicted_cooling_c": 2.07,
+      "cost_per_sqm_inr": 720,
+      "durability_years": 7
+    },
+    {
+      "material_id": "M04",
+      "material_name": "Reflective Pavement (Engineered)",
+      "category": "pavement",
+      "predicted_cooling_c": 2.07,
+      "cost_per_sqm_inr": 950,
+      "durability_years": 6
+    },
+    {
+      "material_id": "M05",
+      "material_name": "Cool Roof (White Membrane)",
+      "category": "roof",
+      "predicted_cooling_c": 2.07,
+      "cost_per_sqm_inr": 540,
+      "durability_years": 12
+    },
+    {
+      "material_id": "M06",
+      "material_name": "Cool Roof (Reflective Paint)",
+      "category": "roof",
+      "predicted_cooling_c": 2.07,
+      "cost_per_sqm_inr": 310,
+      "durability_years": 5
+    },
+    {
+      "material_id": "M10",
+      "material_name": "Permeable Green Pavers",
+      "category": "pavement",
+      "predicted_cooling_c": 2.07,
+      "cost_per_sqm_inr": 890,
+      "durability_years": 15
+    }
+  ],
+  "KO10": [
+    {
+      "material_id": "M07",
+      "material_name": "Green Roof (Extensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 2.38,
+      "cost_per_sqm_inr": 1850,
+      "durability_years": 20
+    },
+    {
+      "material_id": "M08",
+      "material_name": "Green Roof (Intensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 2.38,
+      "cost_per_sqm_inr": 3200,
+      "durability_years": 25
+    },
+    {
+      "material_id": "M03",
+      "material_name": "Cool Pavement (High-Albedo Coating)",
+      "category": "pavement",
+      "predicted_cooling_c": 1.64,
+      "cost_per_sqm_inr": 720,
+      "durability_years": 7
+    },
+    {
+      "material_id": "M04",
+      "material_name": "Reflective Pavement (Engineered)",
+      "category": "pavement",
+      "predicted_cooling_c": 1.64,
+      "cost_per_sqm_inr": 950,
+      "durability_years": 6
+    },
+    {
+      "material_id": "M05",
+      "material_name": "Cool Roof (White Membrane)",
+      "category": "roof",
+      "predicted_cooling_c": 1.64,
+      "cost_per_sqm_inr": 540,
+      "durability_years": 12
+    },
+    {
+      "material_id": "M06",
+      "material_name": "Cool Roof (Reflective Paint)",
+      "category": "roof",
+      "predicted_cooling_c": 1.64,
+      "cost_per_sqm_inr": 310,
+      "durability_years": 5
+    },
+    {
+      "material_id": "M10",
+      "material_name": "Permeable Green Pavers",
+      "category": "pavement",
+      "predicted_cooling_c": 1.64,
+      "cost_per_sqm_inr": 890,
+      "durability_years": 15
+    },
+    {
+      "material_id": "M09",
+      "material_name": "Urban Tree Canopy (per zone avg.)",
+      "category": "vegetation",
+      "predicted_cooling_c": 1.57,
+      "cost_per_sqm_inr": 180,
+      "durability_years": 30
+    }
+  ],
+  "KO11": [
+    {
+      "material_id": "M07",
+      "material_name": "Green Roof (Extensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 1.95,
+      "cost_per_sqm_inr": 1850,
+      "durability_years": 20
+    },
+    {
+      "material_id": "M08",
+      "material_name": "Green Roof (Intensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 1.95,
+      "cost_per_sqm_inr": 3200,
+      "durability_years": 25
+    },
+    {
+      "material_id": "M03",
+      "material_name": "Cool Pavement (High-Albedo Coating)",
+      "category": "pavement",
+      "predicted_cooling_c": 1.2,
+      "cost_per_sqm_inr": 720,
+      "durability_years": 7
+    },
+    {
+      "material_id": "M04",
+      "material_name": "Reflective Pavement (Engineered)",
+      "category": "pavement",
+      "predicted_cooling_c": 1.2,
+      "cost_per_sqm_inr": 950,
+      "durability_years": 6
+    },
+    {
+      "material_id": "M05",
+      "material_name": "Cool Roof (White Membrane)",
+      "category": "roof",
+      "predicted_cooling_c": 1.2,
+      "cost_per_sqm_inr": 540,
+      "durability_years": 12
+    },
+    {
+      "material_id": "M06",
+      "material_name": "Cool Roof (Reflective Paint)",
+      "category": "roof",
+      "predicted_cooling_c": 1.2,
+      "cost_per_sqm_inr": 310,
+      "durability_years": 5
+    },
+    {
+      "material_id": "M10",
+      "material_name": "Permeable Green Pavers",
+      "category": "pavement",
+      "predicted_cooling_c": 1.2,
+      "cost_per_sqm_inr": 890,
+      "durability_years": 15
+    },
+    {
+      "material_id": "M09",
+      "material_name": "Urban Tree Canopy (per zone avg.)",
+      "category": "vegetation",
+      "predicted_cooling_c": 0.8,
+      "cost_per_sqm_inr": 180,
+      "durability_years": 30
+    }
+  ],
+  "KO12": [
+    {
+      "material_id": "M07",
+      "material_name": "Green Roof (Extensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 3.27,
+      "cost_per_sqm_inr": 1850,
+      "durability_years": 20
+    },
+    {
+      "material_id": "M08",
+      "material_name": "Green Roof (Intensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 3.27,
+      "cost_per_sqm_inr": 3200,
+      "durability_years": 25
+    },
+    {
+      "material_id": "M09",
+      "material_name": "Urban Tree Canopy (per zone avg.)",
+      "category": "vegetation",
+      "predicted_cooling_c": 2.79,
+      "cost_per_sqm_inr": 180,
+      "durability_years": 30
+    },
+    {
+      "material_id": "M03",
+      "material_name": "Cool Pavement (High-Albedo Coating)",
+      "category": "pavement",
+      "predicted_cooling_c": 2.39,
+      "cost_per_sqm_inr": 720,
+      "durability_years": 7
+    },
+    {
+      "material_id": "M04",
+      "material_name": "Reflective Pavement (Engineered)",
+      "category": "pavement",
+      "predicted_cooling_c": 2.39,
+      "cost_per_sqm_inr": 950,
+      "durability_years": 6
+    },
+    {
+      "material_id": "M05",
+      "material_name": "Cool Roof (White Membrane)",
+      "category": "roof",
+      "predicted_cooling_c": 2.39,
+      "cost_per_sqm_inr": 540,
+      "durability_years": 12
+    },
+    {
+      "material_id": "M06",
+      "material_name": "Cool Roof (Reflective Paint)",
+      "category": "roof",
+      "predicted_cooling_c": 2.39,
+      "cost_per_sqm_inr": 310,
+      "durability_years": 5
+    },
+    {
+      "material_id": "M10",
+      "material_name": "Permeable Green Pavers",
+      "category": "pavement",
+      "predicted_cooling_c": 2.39,
+      "cost_per_sqm_inr": 890,
+      "durability_years": 15
+    }
+  ],
+  "KO13": [
+    {
+      "material_id": "M08",
+      "material_name": "Green Roof (Intensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 9.87,
+      "cost_per_sqm_inr": 3200,
+      "durability_years": 25
+    },
+    {
+      "material_id": "M07",
+      "material_name": "Green Roof (Extensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 8.82,
+      "cost_per_sqm_inr": 1850,
+      "durability_years": 20
+    },
+    {
+      "material_id": "M04",
+      "material_name": "Reflective Pavement (Engineered)",
+      "category": "pavement",
+      "predicted_cooling_c": 7.84,
+      "cost_per_sqm_inr": 950,
+      "durability_years": 6
+    },
+    {
+      "material_id": "M05",
+      "material_name": "Cool Roof (White Membrane)",
+      "category": "roof",
+      "predicted_cooling_c": 6.86,
+      "cost_per_sqm_inr": 540,
+      "durability_years": 12
+    },
+    {
+      "material_id": "M10",
+      "material_name": "Permeable Green Pavers",
+      "category": "pavement",
+      "predicted_cooling_c": 6.3,
+      "cost_per_sqm_inr": 890,
+      "durability_years": 15
+    },
+    {
+      "material_id": "M03",
+      "material_name": "Cool Pavement (High-Albedo Coating)",
+      "category": "pavement",
+      "predicted_cooling_c": 5.95,
+      "cost_per_sqm_inr": 720,
+      "durability_years": 7
+    },
+    {
+      "material_id": "M06",
+      "material_name": "Cool Roof (Reflective Paint)",
+      "category": "roof",
+      "predicted_cooling_c": 5.18,
+      "cost_per_sqm_inr": 310,
+      "durability_years": 5
+    },
+    {
+      "material_id": "M09",
+      "material_name": "Urban Tree Canopy (per zone avg.)",
+      "category": "vegetation",
+      "predicted_cooling_c": 4.41,
+      "cost_per_sqm_inr": 180,
+      "durability_years": 30
+    }
+  ],
+  "KO14": [
+    {
+      "material_id": "M07",
+      "material_name": "Green Roof (Extensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 2.58,
+      "cost_per_sqm_inr": 1850,
+      "durability_years": 20
+    },
+    {
+      "material_id": "M08",
+      "material_name": "Green Roof (Intensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 2.58,
+      "cost_per_sqm_inr": 3200,
+      "durability_years": 25
+    },
+    {
+      "material_id": "M03",
+      "material_name": "Cool Pavement (High-Albedo Coating)",
+      "category": "pavement",
+      "predicted_cooling_c": 1.83,
+      "cost_per_sqm_inr": 720,
+      "durability_years": 7
+    },
+    {
+      "material_id": "M04",
+      "material_name": "Reflective Pavement (Engineered)",
+      "category": "pavement",
+      "predicted_cooling_c": 1.83,
+      "cost_per_sqm_inr": 950,
+      "durability_years": 6
+    },
+    {
+      "material_id": "M05",
+      "material_name": "Cool Roof (White Membrane)",
+      "category": "roof",
+      "predicted_cooling_c": 1.83,
+      "cost_per_sqm_inr": 540,
+      "durability_years": 12
+    },
+    {
+      "material_id": "M06",
+      "material_name": "Cool Roof (Reflective Paint)",
+      "category": "roof",
+      "predicted_cooling_c": 1.83,
+      "cost_per_sqm_inr": 310,
+      "durability_years": 5
+    },
+    {
+      "material_id": "M10",
+      "material_name": "Permeable Green Pavers",
+      "category": "pavement",
+      "predicted_cooling_c": 1.83,
+      "cost_per_sqm_inr": 890,
+      "durability_years": 15
+    },
+    {
+      "material_id": "M09",
+      "material_name": "Urban Tree Canopy (per zone avg.)",
+      "category": "vegetation",
+      "predicted_cooling_c": 1.65,
+      "cost_per_sqm_inr": 180,
+      "durability_years": 30
+    }
+  ],
+  "KO15": [
+    {
+      "material_id": "M07",
+      "material_name": "Green Roof (Extensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 3.15,
+      "cost_per_sqm_inr": 1850,
+      "durability_years": 20
+    },
+    {
+      "material_id": "M08",
+      "material_name": "Green Roof (Intensive)",
+      "category": "vegetation",
+      "predicted_cooling_c": 3.15,
+      "cost_per_sqm_inr": 3200,
+      "durability_years": 25
+    },
+    {
+      "material_id": "M09",
+      "material_name": "Urban Tree Canopy (per zone avg.)",
+      "category": "vegetation",
+      "predicted_cooling_c": 2.62,
+      "cost_per_sqm_inr": 180,
+      "durability_years": 30
+    },
+    {
+      "material_id": "M03",
+      "material_name": "Cool Pavement (High-Albedo Coating)",
+      "category": "pavement",
+      "predicted_cooling_c": 2.08,
+      "cost_per_sqm_inr": 720,
+      "durability_years": 7
+    },
+    {
+      "material_id": "M04",
+      "material_name": "Reflective Pavement (Engineered)",
+      "category": "pavement",
+      "predicted_cooling_c": 2.08,
+      "cost_per_sqm_inr": 950,
+      "durability_years": 6
+    },
+    {
+      "material_id": "M05",
+      "material_name": "Cool Roof (White Membrane)",
+      "category": "roof",
+      "predicted_cooling_c": 2.08,
+      "cost_per_sqm_inr": 540,
+      "durability_years": 12
+    },
+    {
+      "material_id": "M06",
+      "material_name": "Cool Roof (Reflective Paint)",
+      "category": "roof",
+      "predicted_cooling_c": 2.08,
+      "cost_per_sqm_inr": 310,
+      "durability_years": 5
+    },
+    {
+      "material_id": "M10",
+      "material_name": "Permeable Green Pavers",
+      "category": "pavement",
+      "predicted_cooling_c": 2.08,
+      "cost_per_sqm_inr": 890,
+      "durability_years": 15
+    }
+  ]
+}

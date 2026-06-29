@@ -1,0 +1,17 @@
+{
+  "city_id": "delhi-ncr",
+  "city": "Delhi NCR",
+  "state": "Delhi / NCR",
+  "r_squared": 1.0,
+  "rf_r_squared": 0.998,
+  "coefficients": {
+    "ndvi": 27.954,
+    "ndbi": -0.112,
+    "albedo": 0.049,
+    "air_temp_celsius": -0.02,
+    "relative_humidity": -1.395,
+    "intercept": 70.047
+  },
+  "zone_count": 25,
+  "model_description": "Dual-model AI/ML architecture. Multiple linear regression for driver coefficient attribution (LST ~ NDVI + NDBI + Albedo + AirTemp + Humidity), and Random Forest Regressor for non-linear simulation of urban cooling interventions."
+}

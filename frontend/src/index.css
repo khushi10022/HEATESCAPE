@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  /* === DEEP DARK BASE — charred ember black with warm undertone === */
+  --bg-void:    #0a0604;
+  --bg-deep:    #120b07;
+  --bg-panel:   #1a0f0a;
+  --bg-raised:  #20140c;
+  --bg-card:    #26160d;
+  --bg-hover:   #2e1c10;
+
+  /* === HEATMAP PALETTE (ClickTale style) === */
+  --heat-cold:   #0a0a5c;   /* deep indigo — coldest */
+  --heat-blue:   #0f3cdb;   /* electric blue */
+  --heat-cyan:   #00c8ff;   /* cyan */
+  --heat-green:  #00ff88;   /* neon green */
+  --heat-yellow: #fff000;   /* blazing yellow */
+  --heat-orange: #ff7700;   /* deep orange */
+  --heat-red:    #ff2200;   /* fire red */
+  --heat-white:  #ffffff;   /* max intensity white-hot */
+
+  /* === GRADIENT DEFINITIONS === */
+  --grad-heat-full: linear-gradient(90deg, 
+    #0a0a5c 0%, #0f3cdb 18%, #00c8ff 33%, 
+    #00ff88 45%, #fff000 60%, #ff7700 78%, #ff2200 92%, #ffffff 100%);
+  --grad-heat-bar:  linear-gradient(90deg, #0f3cdb, #00c8ff, #fff000, #ff7700, #ff2200);
+  --grad-fire:      linear-gradient(135deg, #ff2200 0%, #ff7700 50%, #fff000 100%);
+  --grad-cool:      linear-gradient(135deg, #0f3cdb 0%, #00c8ff 100%);
+  --grad-panel:     linear-gradient(160deg, rgba(15,28,50,0.9) 0%, rgba(8,13,24,0.95) 100%);
+  --grad-card-border: linear-gradient(135deg, rgba(255,119,0,0.3), rgba(255,34,0,0.15), rgba(15,60,219,0.2));
+
+  /* === ACCENT COLORS === */
+  --accent-fire:   #ff5500;
+  --accent-lava:   #ff2200;
+  --accent-amber:  #ffaa00;
+  --accent-plasma: #ff00aa;
+  --accent-ice:    #00c8ff;
+  --accent-neon:   #00ff88;
+
+  /* === GLASS / BORDERS === */
+  --glass-fire:   rgba(255, 85, 0, 0.08);
+  --glass-dark:   rgba(18, 11, 7, 0.85);
+  --border-fire:  rgba(255, 119, 0, 0.2);
+  --border-hot:   rgba(255, 34, 0, 0.35);
+  --border-ice:   rgba(0, 200, 255, 0.2);
+  --border-dim:   rgba(50, 32, 20, 0.8);
+
+  /* === TEXT === */
+  --text-primary:   #f0e8d8;    /* warm white, not cold */
+  --text-secondary: #9aabb8;
+  --text-muted:     #4a5c70;
+  --text-fire:      #ff7700;
+  --text-ice:       #00c8ff;
+
+  /* === FONTS === */
+  --font-display: 'Orbitron', 'Space Grotesk', sans-serif;
+  --font-body:    'Space Grotesk', sans-serif;
+  --font-mono:    'JetBrains Mono', monospace;
+
+  /* === RADII === */
+  --r-sm: 6px; --r-md: 12px; --r-lg: 18px; --r-xl: 28px;
+
+  /* === SHADOWS / GLOWS === */
+  --glow-fire:   0 0 20px rgba(255,85,0,0.4), 0 0 60px rgba(255,34,0,0.2), 0 0 120px rgba(255,34,0,0.08);
+  --glow-lava:   0 0 30px rgba(255,34,0,0.5), 0 0 80px rgba(255,119,0,0.25);
+  --glow-ice:    0 0 20px rgba(0,200,255,0.3), 0 0 60px rgba(0,200,255,0.1);
+  --glow-amber:  0 0 20px rgba(255,170,0,0.4);
+  --shadow-card: 0 8px 32px rgba(0,0,0,0.6), 0 2px 8px rgba(0,0,0,0.8);
+  --shadow-deep: 0 20px 60px rgba(0,0,0,0.7), 0 4px 16px rgba(0,0,0,0.9);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  background-color: var(--bg-void);
+  background-image:
+    radial-gradient(ellipse 80% 55% at 50% -5%, rgba(255,85,0,0.18) 0%, rgba(255,34,0,0.06) 38%, transparent 65%),
+    radial-gradient(ellipse 65% 50% at 90% 100%, rgba(0,150,210,0.10) 0%, transparent 60%),
+    radial-gradient(ellipse 55% 45% at 5% 90%, rgba(255,170,0,0.08) 0%, transparent 60%),
+    radial-gradient(circle at 50% 50%, transparent 0%, rgba(0,0,0,0.35) 100%),
+    linear-gradient(180deg, #0c0705 0%, #130b07 35%, #0e0805 70%, #090503 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+#root { height: 100%; }
+button { font-family: inherit; cursor: pointer; border: none; background: none; }
+a { color: var(--accent-ice); text-decoration: none; }
+
+/* ── SCROLLBARS ── */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,85,0,0.25); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255,85,0,0.5); }
+
+/* ── SHARED GLASS PANEL ── */
+.glass-panel {
+  background: var(--glass-dark);
+  border: 1px solid var(--border-dim);
+  border-radius: var(--r-lg);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+.glass-panel::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255,85,0,0.03) 0%, transparent 60%);
+  pointer-events: none;
+  border-radius: inherit;
+}
+.glass-panel:hover {
+  border-color: var(--border-fire);
+  box-shadow: 0 0 30px rgba(255,85,0,0.08), var(--shadow-card);
+}
+
+/* ── PANEL HEADER ── */
+.panel-header {
+  display: flex; align-items: center; gap: 10px;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border-dim);
+}
+.panel-header h2 {
+  font-family: var(--font-display);
+  font-size: 11px; font-weight: 600;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--text-secondary);
+}
+.panel-icon-dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--grad-fire);
+  box-shadow: 0 0 10px rgba(255,85,0,0.7);
+  flex-shrink: 0;
+  animation: pulse-fire 2s ease infinite;
+}
+.panel-empty {
+  color: var(--text-muted); font-size: 13px;
+  padding: 24px; text-align: center;
+}
+
+/* ── GRADIENT TEXT ── */
+.gradient-fire {
+  background: var(--grad-fire);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+.gradient-ice {
+  background: var(--grad-cool);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+
+/* ── ANIMATED BG ELEMENTS ── */
+.bg-grid {
+  position: fixed; inset: 0; pointer-events: none; z-index: 0;
+  background-image:
+    linear-gradient(rgba(255,85,0,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,85,0,0.025) 1px, transparent 1px);
+  background-size: 52px 52px;
+}
+
+/* ── KEYFRAMES ── */
+@keyframes pulse-fire {
+  0%,100% { opacity:0.7; box-shadow: 0 0 6px rgba(255,85,0,0.5); }
+  50%      { opacity:1;   box-shadow: 0 0 16px rgba(255,85,0,0.9); }
+}
+@keyframes float-slow {
+  0%,100% { transform: translateY(0) rotate(0deg); }
+  33%     { transform: translateY(-12px) rotate(1deg); }
+  66%     { transform: translateY(-6px) rotate(-1deg); }
+}
+@keyframes ember-rise {
+  0%   { transform: translateY(0) translateX(0) scale(1); opacity:0.8; }
+  100% { transform: translateY(-120px) translateX(var(--drift,20px)) scale(0.2); opacity:0; }
+}
+@keyframes spin-slow { to { transform: rotate(360deg); } }
+@keyframes scan-line {
+  0%   { transform: translateY(-100%); opacity:0; }
+  10%  { opacity:1; }
+  90%  { opacity:1; }
+  100% { transform: translateY(200vh); opacity:0; }
+}
+@keyframes fadeInUp {
+  from { opacity:0; transform:translateY(24px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity:0; }
+  to   { opacity:1; }
+}
+@keyframes live-pulse {
+  0%,100% { transform:scale(1); opacity:1; }
+  50%     { transform:scale(1.6); opacity:0.4; }
+}
+@keyframes heat-shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+@keyframes border-fire {
+  0%,100% { border-color: rgba(255,85,0,0.3); }
+  50%     { border-color: rgba(255,34,0,0.6); }
+}
+@keyframes counter-glow {
+  0%,100% { text-shadow: 0 0 10px rgba(255,119,0,0.5); }
+  50%     { text-shadow: 0 0 30px rgba(255,119,0,0.9), 0 0 60px rgba(255,34,0,0.4); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+:focus-visible { outline: 2px solid var(--accent-fire); outline-offset: 3px; }
